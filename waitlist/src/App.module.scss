@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$textFont: 'Inter', sans-serif;
+$bgColor: #E7E9EF;
+$textColor: #454343;
+$btnColor: #05469E;
+
+body {
+  background-color: $bgColor;
+}
+
+.App {
+  .header {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    padding-top: 35px;
+    align-items: center;
+    max-width: 100%;
+    // width: 1200px;
+    justify-content: space-between;
+    .logoImg {
+      width: 178px;
+      height: 55px;
+    }
+    .navLink {
+      display: flex;
+      flex-direction: row;
+      width: 342px;
+      justify-content: space-between;
+      a {
+        color: $textColor;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: $textFont;
+        text-decoration: none;
+      }
+    }
+    .waitBtn {
+      background-color: $btnColor;
+      width: 202px;
+      height: 65px;
+      border-radius: 16px;
+      border: none;
+      color: #FFFFFF;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: $textFont;
+    }
+  }
+  .subHeader {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+    .subHead1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+      padding-top: 40px;
+      h2 {
+        font-family: $textFont;
+        font-size: 65px;
+        font-weight: 700;
+        color: $btnColor;
+        width: 730px;
+        margin-bottom: -7px;
+        span {
+          color: #000000;
+        }
+      }
+      p {
+        color: #122240;
+        font-size: 24px;
+        font-family: $textFont;
+        font-weight: 400;
+        width: 474px;
+      }
+      .waitBtn {
+        background-color: $btnColor;
+      width: 202px;
+      height: 65px;
+      border-radius: 16px;
+      border: none;
+      color: #FFFFFF;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: $textFont;
+      }
+    }
+    .subHead2 {
+      display: flex;
+      flex-direction: column;
+      p {
+        color: #4C4C4C;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: $textFont;
+        text-align: center;
+        margin-bottom: -5px;
+      }
+      img {
+        width: 450px;
+        height: 563px;
+      }      
+    }
+  }
+  .workSection {
+    .work1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h3 {
+        color: $textColor;
+        font-weight: 600;
+        font-family: $textFont;
+        font-size: 32px;
+        margin-bottom: -6px;
+      }
+      p {
+        color: $textColor;
+        font-weight: 400;
+        font-family: $textFont;
+        font-size: 28px;
+      }
+    }
+    .work2 {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      justify-content: space-around;
+      margin-top: 50px;
+      .Subwork {
+        display: flex;
+        flex-direction: column;
+        width: 283px;
+        align-items: center;
+        .img {
+          width: 100px;
+          height: 80px;
+        }
+        h5 {
+          color: $textColor;
+          font-weight: 600;
+          font-family: $textFont;
+          font-size: 20px;
+          text-align: center;
+        }
+        .pText {
+        color: $textColor;
+        font-weight: 400;
+        font-family: $textFont;
+        font-size: 20px;
+        width: 275px;
+        text-align: center;
+        margin-top: -10px;
+        }
+      }
+    }
+  }
+  
+}
