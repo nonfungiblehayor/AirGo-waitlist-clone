@@ -1,5 +1,6 @@
 import React from "react";
 import styles from '../App.module.scss'
+import frame from '../images/frame.svg'
 
 function Section1() {
     return <section className={styles.section1}>
@@ -8,10 +9,8 @@ function Section1() {
             <p>
                 Accept a request on the AirGo app to deliver an item and get paid on your next flight!
             </p>
-        </div>
-        <div className={styles.div2}>
-            
-        </div>
+            <img src={frame} alt='frame'></img>  
+        </div>          
     </section>
 }
 
