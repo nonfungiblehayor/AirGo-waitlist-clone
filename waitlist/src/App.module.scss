@@ -587,3 +587,202 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 768px) and (min-width: 582px) {
+  .App {
+    padding: 0;
+    margin: 0;
+    .header {
+      display: flex;
+      flex-direction: row;
+      padding: 30px;
+      padding-top: 35px;
+      align-items: center;
+      max-width: 100%;
+      justify-content: space-between;
+      .logoImg {
+        width: 80px;
+        height: 55px;
+      }
+      .navLink {
+        display: flex;
+        flex-direction: row;
+        width: 342px;
+        justify-content: space-between;
+        a {
+          color: $textColor;
+          font-size: 16px;
+          font-weight: 500;
+          font-family: $textFont;
+          text-decoration: none;
+        }
+      }
+      .waitBtn {
+        background-color: $btnColor;
+        width: 120px;
+        height: 45px;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: $textFont;
+        margin-left: 20px;
+      }
+    }
+    .subHeader {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      justify-content: center;
+      margin-top: -50px;
+      padding: 25px;
+      .subHead1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        h2 {
+          font-family: $textFont;
+          font-size: 35px;
+          font-weight: 700;
+          color: $btnColor;
+          width: 330px;
+          margin-bottom: -7px;
+          text-align: center;
+          span {
+            color: #000000;
+          }
+        }
+        p {
+          color: #122240;
+          font-size: 20px;
+          font-family: $textFont;
+          font-weight: 400;
+          width: 420px;
+          text-align: center;
+        }
+        .waitBtn {
+          background-color: $btnColor;
+        width: 150px;
+        height: 65px;
+        border-radius: 16px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: $textFont;
+        }
+      }
+      .subHead2 {
+        display: flex;
+        flex-direction: column;
+        p {
+          color: #4C4C4C;
+          font-size: 24px;
+          font-weight: 500;
+          font-family: $textFont;
+          text-align: center;
+          margin-bottom: -75px;
+        }
+        img {
+          width: 350px;
+          height: 563px;
+        }      
+      }
+    } 
+    .section1 {
+      display: flex;
+      flex-direction: column;
+      margin-top: -40px;
+      .div1 {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h3 {
+          font-size: 30px;
+          width: 375px;
+          text-align: center;
+          font-weight: 600;
+          color: $textColor;
+          font-family: $textFont;
+          margin-bottom: 5px;
+        }
+        p {
+          font-size: 18px;
+          font-weight: 400;
+          color: $textColor;
+          font-family: $textFont;
+          width: 420px;
+          text-align: center;
+        }
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+    .workSection {
+      .work1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h3 {
+          color: $textColor;
+          font-weight: 600;
+          font-family: $textFont;
+          font-size: 32px;
+          margin-bottom: -6px;
+          text-align: center;
+        }
+        p {
+          color: $textColor;
+          font-weight: 400;
+          font-family: $textFont;
+          font-size: 20px;
+          text-align: center;
+          width: 480px;
+        }
+      }
+      .work2 {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        gap: 35px;
+        .Subwork {
+          display: flex;
+          flex-direction: column;
+          width: 300px;
+          align-items: center;
+          .img {
+            width: 150px;
+            height: 80px;
+          }
+          h5 {
+            color: $textColor;
+            font-weight: 600;
+            font-family: $textFont;
+            font-size: 20px;
+            text-align: center;
+            width: 300px;
+          }
+          .pText {
+          color: $textColor;
+          font-weight: 400;
+          font-family: $textFont;
+          font-size: 18px;
+          width: 280px;
+          text-align: center;
+          margin-top: -10px;
+          }
+        }
+      }
+    }
+  }  
+}
