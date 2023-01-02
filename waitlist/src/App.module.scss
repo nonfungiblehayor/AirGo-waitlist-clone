@@ -113,6 +113,7 @@ body {
     .section1 {
       display: flex;
       flex-direction: column;
+      padding: 0;
       .div1 {
         max-width: 100%;
         display: flex;
@@ -132,9 +133,22 @@ body {
           color: $textColor;
           font-family: $textFont;
         }
-        img {
-          max-width: 100%;
-        }
+      }
+      // .div2 {
+      //   display: flex;
+      //   padding: 0;
+      //   // background-color: red;
+      //   background-image: url(./images/frame.svg);
+      //   background-repeat: no-repeat;
+      //   background-size: contain;
+      //   max-width: 100%;
+      //   height: 500px;
+      //   img {
+      //     display: n;
+      //   }
+      // }
+      img {
+        max-width: 100%;
       }
     }
     .workSection {

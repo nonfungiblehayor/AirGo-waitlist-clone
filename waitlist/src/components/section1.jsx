@@ -8,9 +8,10 @@ function Section1() {
             <h3>Join us in providing easy delivery</h3>
             <p>
                 Accept a request on the AirGo app to deliver an item and get paid on your next flight!
-            </p>
-            <img src={frame} alt='frame'></img>  
-        </div>          
+            </p> 
+        </div>  
+        <img src={frame} alt='frame'></img>         
+
     </section>
 }
 
