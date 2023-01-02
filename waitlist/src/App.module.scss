@@ -13,61 +13,43 @@ body {
   .App {
     padding: 0;
     margin: 0;
-    .header {
+    .divLogo {
+      display: none;
+    }
+    .navLink {
       display: flex;
       flex-direction: row;
-      padding: 40px;
-      padding-top: 35px;
-      align-items: center;
       max-width: 100%;
-      // width: 1200px;
-      .navDiv {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        max-width: 100%;
-        justify-content: space-between;
-        gap: 20vw;
-        .logoImg {
-          width: 178px;
-          height: 55px;
-        }
-        .menu {
-          display: none;
-        }
-        .navLink {
-          display: flex;
-          flex-direction: row;
-          width: 342px;
-          justify-content: space-between;
-          gap: 15px;
-          .cancel {
-            display: none;
-          }
-          a {
-            color: $textColor;
-            font-size: 20px;
-            font-weight: 500;
-            font-family: $textFont;
-            text-decoration: none;
-          }
-          .waitBtn {
-            display: none;
-          }
-        }
-        .waitBtn {
-          background-color: $btnColor;
-          width: 202px;
-          height: 65px;
-          border-radius: 16px;
-          border: none;
-          color: #FFFFFF;
-          font-size: 20px;
-          font-weight: 600;
-          font-family: $textFont;
-        }
+      align-items: center;
+      gap: 25px;
+      z-index: 999;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 30px;
+      .logo {
+        width: 178px;
+        height: 55px;
       }
-    }
+      a {
+        font-family: $textFont;
+        font-size: 20px;
+        color: $textColor;
+        font-weight: 500;
+        text-decoration: none;
+        // margin-right: 15px;
+      }
+      .waitBtn {
+        background-color: $btnColor;
+        width: 202px;
+        height: 65px;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: $textFont;
+        }
+    }  
     .subHeader {
       display: flex;
       flex-direction: row;
@@ -235,10 +217,61 @@ body {
       }
     }  
 
-@media screen and (max-width: 1300px) and (min-width: 950px) {
+@media screen and (max-width: 1200px) and (min-width: 950px) {
   .App {
     padding: 0;
     margin: 0;
+    .divLogo {
+      display: none;
+      flex-direction: row;
+      max-width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px;
+      padding-top: 30px;
+      .logo {
+        width: 78px;
+        height: 26px;
+        display: none;
+      }
+      .menu {
+        display: none;
+      }
+    }
+    .navLink {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      align-items: center;
+      gap: 25px;
+      z-index: 999;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 30px;
+      .logo {
+        width: 78px;
+        height: 26px;
+      }
+      a {
+        font-family: $textFont;
+        font-size: 16px;
+        color: $textColor;
+        font-weight: 500;
+        text-decoration: none;
+        // margin-right: 15px;
+      }
+    }
+    .waitBtn {
+      background-color: $btnColor;
+      width: 150px;
+      height: 45px;
+      border-radius: 10px;
+      border: none;
+      color: #FFFFFF;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: $textFont;
+      }
     .header {
       display: flex;
       flex-direction: row;
@@ -433,6 +466,57 @@ body {
   .App {
     padding: 0;
     margin: 0;
+    .divLogo {
+      display: none;
+      flex-direction: row;
+      max-width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px;
+      padding-top: 30px;
+      .logo {
+        width: 78px;
+        height: 26px;
+        display: none;
+      }
+      .menu {
+        display: none;
+      }
+    }
+    .navLink {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      align-items: center;
+      gap: 25px;
+      z-index: 999;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding: 15px;
+      .logo {
+        width: 78px;
+        height: 26px;
+      }
+      a {
+        font-family: $textFont;
+        font-size: 16px;
+        color: $textColor;
+        font-weight: 500;
+        text-decoration: none;
+        // margin-right: 15px;
+      }
+    }
+    .waitBtn {
+    background-color: $btnColor;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: $textFont;
+    }
     .header {
       display: flex;
       flex-direction: row;
@@ -628,6 +712,57 @@ body {
   .App {
     padding: 0;
     margin: 0;
+    .divLogo {
+      display: none;
+      flex-direction: row;
+      max-width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px;
+      padding-top: 30px;
+      .logo {
+        width: 78px;
+        height: 26px;
+        display: none;
+      }
+      .menu {
+        display: none;
+      }
+    }
+    .navLink {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      align-items: center;
+      gap: 25px;
+      z-index: 999;
+      padding: 10px;
+      justify-content: space-between;
+      margin-top: 25px;
+      .logo {
+        width: 78px;
+        height: 26px;
+      }
+      a {
+        font-family: $textFont;
+        font-size: 16px;
+        color: $textColor;
+        font-weight: 500;
+        text-decoration: none;
+        // margin-right: 15px;
+      }
+    }
+    .waitBtn {
+      background-color: $btnColor;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: $textFont;
+    }
     .header {
       display: flex;
       flex-direction: row;
