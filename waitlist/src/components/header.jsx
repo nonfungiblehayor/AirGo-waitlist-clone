@@ -12,9 +12,11 @@ function Header(props) {
        </div>
        <div className={styles.navLink}>
        <a href='/app'><img src={logo} alt='airGo' className={styles.logo}></img></a>
+       <div className={styles.link}>
         <a href='/app'>Home</a>
         <a href='/app'>How it works</a>
         <a href='/app'>Contact us</a>
+        </div>
         <button className={styles.waitBtn}>Join waitlist</button>
        </div>
     </>

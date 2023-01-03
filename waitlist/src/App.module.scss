@@ -21,14 +21,19 @@ body {
       flex-direction: row;
       max-width: 100%;
       align-items: center;
-      gap: 25px;
+      gap: 15px;
       z-index: 999;
       justify-content: space-between;
       margin-top: 20px;
-      padding: 30px;
+      padding: 60px;
       .logo {
         width: 178px;
         height: 55px;
+      }
+      .link {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
       }
       a {
         font-family: $textFont;
@@ -54,9 +59,9 @@ body {
       display: flex;
       flex-direction: row;
       max-width: 100%;
-      justify-content: center;
-      gap: 40px;
+      justify-content: space-between;
       margin-top: 60px;
+      padding: 60px;
       .subHead1 {
         display: flex;
         flex-direction: column;
