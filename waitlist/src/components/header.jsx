@@ -4,7 +4,6 @@ import logo from '../images/logo.svg'
 import vector from '../images/Vector.svg'
 
 function Header(props) {
-
     return  <>
        <div className={styles.divLogo}>
         <a href='/app'><img src={logo} alt='airGo' className={styles.logo}></img></a>

@@ -8,9 +8,9 @@ import { useState } from "react";
 import Menu from './components/menu';
 
 function App() {
-  const [menu, showMenu] = useState(false)
+  const [menu, showMenu] = useState(true)
 
-  const disPlayMenu = () => {
+  const displayMenu = () => {
     showMenu(!menu)
 }
 
@@ -24,7 +24,7 @@ const hideMenu = () => {
        <Menu fnc2={hideMenu}/>  
       :
        <>      
-       <Header fnc={disPlayMenu}/> 
+       <Header fnc={displayMenu}/> 
        <SubHeader />  </>           
     }
      

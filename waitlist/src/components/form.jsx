@@ -8,7 +8,10 @@ function Form(props) {
         <img src={cancel} className={styles.ogaCancel} alt='cancel' onClick={props.formHiding}></img>
         <div className={styles.formSections}>
        <div className={styles.formText}>
+        <div className={styles.logos}>
         <img src={logo} className={styles.logoImg} alt='logo'></img>
+        <img src={cancel} className={styles.ogaCancel2} alt='cancel' onClick={props.formHiding}></img>
+        </div>
         <h2 className={styles.logoTxt}>
         AirGo is coming soon
         </h2>
