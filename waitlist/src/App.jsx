@@ -8,20 +8,17 @@ import { useState } from "react";
 import Menu from './components/menu';
 
 function App() {
-  const [menu, showMenu] = useState(true)
+  const [menu, showMenu] = useState(false)
 
   const displayMenu = () => {
     showMenu(!menu)
-}
-
-const hideMenu = () => {
-  showMenu(!menu)
+    console.log(20)
 }
 
   return (
     <div className={styles.App}>
       {menu ? 
-       <Menu fnc2={hideMenu}/>  
+       <Menu fnc2={displayMenu}/>  
       :
        <>      
        <Header fnc={displayMenu}/> 

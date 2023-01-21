@@ -1609,6 +1609,7 @@ body {
       justify-content: space-between;
       align-items: center;
       padding: 25px;
+      padding-top: 40px;
       .logo {
         width: 78px;
         height: 26px;
@@ -1619,17 +1620,23 @@ body {
       }
     }
     .navLink {
-      display: none;
+      // display: flex;
       flex-direction: column;
       max-width: 100%;
-      background-color: red;
+      background-color: transparent;
       align-items: center;
-      height: 300px;
+      height: 0px;
       gap: 25px;
-      z-index: 999;
+      z-index: 0;
       justify-content: center;
-      margin-top: -50px;
-      margin-bottom: -80px;
+      .link {
+        display: none;
+      }
+      .logo {
+        display: none;
+      }
+      // margin-top: -50px;
+      // margin-bottom: -80px;
     }
     .waitBtn {
       display: none;
@@ -1638,6 +1645,7 @@ body {
       display: flex;
       flex-direction: column;
       max-width: 100%;
+      margin-top: -25px;
       .subHeads {
       display: flex;
       flex-direction: column;
