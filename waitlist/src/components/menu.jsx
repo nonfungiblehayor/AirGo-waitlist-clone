@@ -1,6 +1,6 @@
 import React from "react";
 import styles from '../App.module.scss'
-import cancel from '../images/cancel.png'
+import cancel from '../images/cancel.svg'
 import rosebox from '../images/rosebox.svg'
 
 function Menu(props) {
