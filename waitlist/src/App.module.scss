@@ -268,6 +268,9 @@ body {
           height: 420px;
           border-radius: 16px;
         }
+        .waitBtn2 {
+          display: none;
+        }
       }
     }
     .workSection {
@@ -668,6 +671,9 @@ body {
           height: 320px;
           border-radius: 16px;
         }
+        .waitBtn2 {
+          display: none;
+        }
       }
     }
     .workSection {
@@ -1048,6 +1054,9 @@ body {
           height: 320px;
           border-radius: 16px;
         }
+        .waitBtn2 {
+          display: none;
+        }
       }
     }
     .workSection {
@@ -1143,7 +1152,7 @@ body {
       flex-direction: row;
       max-width: 100%;
       align-items: center;
-      gap: 25px;
+      gap: 15px;
       z-index: 999;
       padding: 10px;
       justify-content: space-between;
@@ -1154,7 +1163,7 @@ body {
       }
       a {
         font-family: $textFont;
-        font-size: 16px;
+        font-size: 10px;
         color: $textColor;
         font-weight: 500;
         text-decoration: none;
@@ -1162,8 +1171,8 @@ body {
       }
     }
     .waitBtn {
-      background-color: $btnColor;
-    width: 150px;
+    background-color: $btnColor;
+    width: 90px;
     height: 45px;
     border-radius: 10px;
     border: none;
@@ -1222,41 +1231,45 @@ body {
     .subHeader {
       display: flex;
       flex-direction: column;
-      align-items: center;
       max-width: 100%;
-      justify-content: center;
-      margin-top: -50px;
-      padding: 25px;
+      .subHeads {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      justify-content: space-between;
+      margin-top: 60px;
+      padding-left: 20px;
+      padding-right: 20px;
+      }
       .subHead1 {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         gap: 5px;
+        padding-top: 70px;
         h2 {
           font-family: $textFont;
-          font-size: 35px;
+          font-size: 25px;
           font-weight: 700;
           color: $btnColor;
           width: 330px;
           margin-bottom: -7px;
-          text-align: center;
           span {
             color: #000000;
           }
         }
         p {
           color: #122240;
-          font-size: 20px;
+          font-size: 14px;
           font-family: $textFont;
           font-weight: 400;
-          width: 420px;
-          text-align: center;
+          width: 274px;
         }
         .waitBtn {
           background-color: $btnColor;
-        width: 150px;
-        height: 65px;
-        border-radius: 16px;
+        width: 152.25px;
+        height: 54.6px;
+        border-radius: 37.8px;
         border: none;
         color: #FFFFFF;
         font-size: 20px;
@@ -1269,51 +1282,192 @@ body {
         flex-direction: column;
         p {
           color: #4C4C4C;
-          font-size: 24px;
+          font-size: 14px;
           font-weight: 500;
           font-family: $textFont;
           text-align: center;
-          margin-bottom: -75px;
+          margin-bottom: -95px;
         }
         img {
-          width: 350px;
-          height: 563px;
+          width: 200px;
+          height: 463px;
         }      
       }
-    } 
+    }
+    .formSection {
+      display: flex;
+      flex-direction: column;
+      z-index: 1;
+      max-width: 100%;
+      margin-top: -300px;
+      .ogaCancel {
+        width: 50px;
+        height: 50px;
+        align-self: center;
+        margin-bottom: 15px;
+      }
+      .formSections {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 500px;
+        height: 349px;
+        border-radius: 16px;
+        border: none;
+        align-self: center;
+        padding: 20px;
+        justify-content: space-around;
+        background-color: #D7DDE9;
+      }
+      .formText {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: left;
+        justify-content: center;
+        .logoImg {
+          width: 90px;
+          height: 55.3px;
+        }
+        .logoTxt {
+          color: #0E0E0E;
+          font-size: 20px;
+          font-weight: 700;
+          font-family: $textFont;
+        }
+        .ptxt {
+          color: $textColor;
+          font-size: 20px;
+          font-weight: 400;
+          font-family: $textFont;
+        }
+        .spanTxt {
+          color: $textColor;
+          font-size: 15px;
+          font-weight: 700;
+          font-family: $textFont;
+          width: 250px;
+          .exSpan {
+            color: #05469E;
+          }
+        }
+      }
+      .formInput {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        justify-content: center;
+        p {
+          color: $textColor;
+          font-family: $textFont;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        .form {
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          .inputName {
+            width: 200px;
+            border: none;
+            border-radius: 12px;
+            height: 40px;
+            background-color: #E7E9EF;
+            color: #0e0e0e52;
+            font-family: $textFont;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: left;
+            padding: 7px;
+          }
+          .inputBtn {
+            width: 200px;
+            border: none;
+            border-radius: 60px;
+            height: 61px;
+            background-color: $btnColor;
+            color: #FFFFFF;
+            font-family: $textFont;
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+          }
+        }
+      }
+    }    
     .section1 {
       display: flex;
       flex-direction: column;
-      margin-top: -40px;
+      max-width: 100%;
+      margin-top: -43px;
+      align-items: center;      
+      // padding: 0;
       .div1 {
         max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        order: 1;
         h3 {
           font-size: 30px;
-          width: 375px;
-          text-align: center;
           font-weight: 600;
           color: $textColor;
           font-family: $textFont;
           margin-bottom: 5px;
         }
         p {
-          font-size: 18px;
+          font-size: 19px;
           font-weight: 400;
           color: $textColor;
           font-family: $textFont;
-          width: 420px;
           text-align: center;
+          width: 400px;
         }
+        .waitBtn {
+          background-color: $btnColor;
+          width: 152.25px;
+          height: 54.6px;
+          border-radius: 57.8px;
+          border: none;
+          color: #FFFFFF;
+          font-size: 20px;
+          font-weight: 600;
+          font-family: $textFont;
+          display: none;
+          }
+      }
+      .div2 {
+        max-width: 100%;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        .waitBtn2 {
+          background-color: $btnColor;
+          width: 152.25px;
+          height: 54.6px;
+          border-radius: 57.8px;
+          border: none;
+          color: #FFFFFF;
+          font-size: 16px;
+          font-weight: 600;
+          font-family: $textFont;
+          display: flex;
+          align-items: center;
+          padding: 10px;
+          justify-content: center;
+          }
         img {
-          max-width: 100%;
+          width: 500px;
+          height: 320px;
+          border-radius: 16px;
         }
       }
     }
     .workSection {
+      margin-top: 30px;
       .work1 {
         display: flex;
         flex-direction: column;
