@@ -17,7 +17,7 @@ function Header(props) {
         <a href='/app'>How it works</a>
         <a href='/app'>Contact us</a>
         </div>
-        <button className={styles.waitBtn}>Join waitlist</button>
+        <button className={styles.waitBtn}>send now</button>
        </div>
     </>
 }
