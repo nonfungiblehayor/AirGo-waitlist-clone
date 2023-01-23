@@ -7,8 +7,8 @@ function Menu(props) {
     return  <nav className={styles.navDiv}>
     <img src={cancel} alt='cancel' className={styles.cancel} onClick={props.fnc2}></img>
     <a href='/app'>Home</a>
-    <a href='/app'>How it works</a>
-    <a href='/app'>Contact us</a>
+    <a href='#work'>How it works</a>
+    <a href='#footer'>Contact us</a>
     <button className={styles.waitBtn2}>send now</button>
     <div className={styles.subHead2}>
             <p>Simple, easy deliveries</p>

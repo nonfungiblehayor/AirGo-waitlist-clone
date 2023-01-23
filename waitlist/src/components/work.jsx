@@ -6,7 +6,7 @@ import shake from '../images/shake.svg'
 import mark from '../images/mark.svg'
 
 function Work() {
-    return <section className={styles.workSection}>
+    return <section className={styles.workSection} id='work'>
         <div className={styles.work1}>
             <h3>
                 How it works

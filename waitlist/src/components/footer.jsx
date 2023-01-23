@@ -5,7 +5,7 @@ import twitter from '../images/twitter.svg'
 import insta from '../images/insta.svg'
 
 function Footer() {
-    return <footer className={styles.footer}>
+    return <footer className={styles.footer} id='footer'>
             <p>Contact us</p>
             <a href='/app'><img src={mail} alt='mail logo'></img></a>
             <a href='/app'><img src={insta} alt='instagram logo'></img></a>
