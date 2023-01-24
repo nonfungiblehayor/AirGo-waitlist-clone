@@ -4,6 +4,7 @@ $textFont: 'Inter', sans-serif;
 $bgColor: #E7E9EF;
 $textColor: #454343;
 $btnColor: #05469E;
+$errorColor: red;
 
 body {
   background-color: $bgColor;
@@ -43,7 +44,6 @@ body {
         color: $textColor;
         font-weight: 500;
         text-decoration: none;
-        // margin-right: 15px;
       }
       .waitBtn {
         background-color: $btnColor;
@@ -79,7 +79,7 @@ body {
         padding-top: 40px;
         h2 {
           font-family: $textFont;
-          font-size: 65px;
+          font-size: 96px;
           font-weight: 700;
           color: $btnColor;
           width: 730px;
@@ -96,13 +96,13 @@ body {
           width: 474px;
         }
         .waitBtn {
-          background-color: $btnColor;
+        background-color: $btnColor;
         width: 152.25px;
         height: 54.6px;
         border-radius: 37.8px;
         border: none;
         color: #FFFFFF;
-        font-size: 20px;
+        font-size: 16.8px;
         font-weight: 600;
         font-family: $textFont;
         }
@@ -119,7 +119,7 @@ body {
           margin-bottom: -5px;
         }
         img {
-          width: 450px;
+          width: 30vw;
           height: 563px;
         }      
       }
@@ -233,44 +233,49 @@ body {
     .section1 {
       display: flex;
       flex-direction: row;
-      max-width: 100%;
+      max-width: 0;
       margin-top: 83px;
-      // padding: 0;
+      justify-content: space-between;
+      // padding-right: 25px;
+      gap: 4vw;
       .div1 {
-        max-width: 100%;
+        max-width: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         h3 {
-          font-size: 64px;
+          font-size: 5vw;
           font-weight: 600;
           color: $textColor;
           font-family: $textFont;
           margin-bottom: 5px;
+          width: 50vw;
         }
         p {
-          font-size: 24px;
+          font-size: 1.8vw;
           font-weight: 400;
           color: $textColor;
           font-family: $textFont;
+          width: 45vw;
         }
         .waitBtn {
           background-color: $btnColor;
           width: 152.25px;
           height: 54.6px;
-          border-radius: 57.8px;
+          border-radius: 37.8px;
           border: none;
           color: #FFFFFF;
-          font-size: 20px;
+          font-size: 16.8px;
           font-weight: 600;
           font-family: $textFont;
           }
       }
       .div2 {
-        max-width: 100%;
+        // max-width: 120vw;
+        padding-left: 35px;
         img {
-          width: 659px;
-          height: 420px;
+          max-width: 50vw;
+          height: 35vw;
           border-radius: 16px;
         }
         .waitBtn2 {
@@ -1821,16 +1826,17 @@ body {
             color: #000000;
           }
           .inputBtn {
-            width: 285px;
+            width: 300px;
             border: none;
             border-radius: 60px;
-            height: 42.18px;
+            height: 50.18px;
             background-color: $btnColor;
             color: #FFFFFF;
             font-family: $textFont;
             font-size: 16px;
             font-weight: 700;
             text-align: center;
+            // padding: 25px;
           }
         }
       }
