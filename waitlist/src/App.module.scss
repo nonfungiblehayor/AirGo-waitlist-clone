@@ -79,10 +79,10 @@ body {
         padding-top: 40px;
         h2 {
           font-family: $textFont;
-          font-size: 96px;
+          font-size: 7vw;
           font-weight: 700;
           color: $btnColor;
-          width: 730px;
+          width: 60vw;
           margin-bottom: -7px;
           span {
             color: #000000;
@@ -90,10 +90,10 @@ body {
         }
         p {
           color: #122240;
-          font-size: 24px;
+          font-size: 2vw;
           font-family: $textFont;
           font-weight: 400;
-          width: 474px;
+          width: 40vw;
         }
         .waitBtn {
         background-color: $btnColor;
@@ -120,7 +120,7 @@ body {
         }
         img {
           width: 30vw;
-          height: 563px;
+          height: 40vw;
         }      
       }
     }
@@ -286,6 +286,7 @@ body {
     .workSection {
       background-color: #D7DDE9;
       margin-top: 133px;
+      padding-bottom: 60px;
       .work1 {
         display: flex;
         flex-direction: column;
@@ -293,7 +294,7 @@ body {
         align-items: center;
         h3 {
           color: $textColor;
-          font-weight: 600;
+          font-weight: 700;
           font-family: $textFont;
           font-size: 32px;
           margin-bottom: -6px;
@@ -302,7 +303,7 @@ body {
           color: $textColor;
           font-weight: 400;
           font-family: $textFont;
-          font-size: 28px;
+          font-size: 24px;
         }
       }
       .work2 {
@@ -318,23 +319,24 @@ body {
           align-items: center;
           .divImg {
             background-color: #4470ae1c;
-            width: 100px;
-            height: 90px;
+            width: 76.55px;
+            height: 74.56px;
             display: flex;
             align-items: center;
             justify-content: center;
-            border-radius: 12px;
+            border-radius: 9.34px;
           }
           .img {
-            width: 100px;
-            height: 80px;
+            width: 64.88px;
+            height: 62.89px;
           }
           h5 {
             color: $textColor;
             font-weight: 600;
             font-family: $textFont;
-            font-size: 20px;
+            font-size: 24px;
             text-align: center;
+            width: 220px;
           }
           .pText {
           color: $textColor;
@@ -353,18 +355,18 @@ body {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      gap: 25px;
+      gap: 50px;
       padding-bottom: 50px;
       margin-top: 30px;
         p {
           color: $textColor;
-          font-size: 25px;
+          font-size: 24px;
           font-family: $textFont;
           font-weight: 500;
         }
         img {
-          width: 32px;
-          height: 26px;
+          width: 26.17px;
+          height: 20.94x;
         }
       }
     }  
