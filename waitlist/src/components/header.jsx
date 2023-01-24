@@ -16,7 +16,7 @@ function Header(props) {
         <a href='#work'>How it works</a>
         <a href='#footer'>Contact us</a>
         </div>
-        <button className={styles.waitBtn}>send now</button>
+        <button className={styles.waitBtn}>Send now</button>
        </div>
     </>
 }

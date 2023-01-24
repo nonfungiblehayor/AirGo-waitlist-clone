@@ -9,7 +9,7 @@ function Menu(props) {
     <a href='/app'>Home</a>
     <a href='#work'>How it works</a>
     <a href='#footer'>Contact us</a>
-    <button className={styles.waitBtn2}>send now</button>
+    <button className={styles.waitBtn2}>Send now</button>
     <div className={styles.subHead2}>
             <p>Simple, easy deliveries</p>
             <img src={rosebox} alt='delivery'></img>

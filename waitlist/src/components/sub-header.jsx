@@ -23,7 +23,7 @@ function SubHeader() {
             <p>
             We match you with a traveller to deliver your parcel on the next available flight
             </p>
-            <button type="submit" className={styles.waitBtn} onClick={displayForm}>send now</button>
+            <button type="submit" className={styles.waitBtn} onClick={displayForm}>Send now</button>
         </div>
         <div className={styles.subHead2}>
             <p>Simple, easy deliveries</p>

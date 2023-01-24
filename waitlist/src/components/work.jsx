@@ -17,7 +17,7 @@ function Work() {
         </div>
         <div className={styles.work2}>
             <SubWork img={snap} upText='Take an image of your item' downText='Create an account and provide details of the item you want to send' />
-            <SubWork img={shake} upText='we match you with a traveller' downText='Meet up with the traveller that will deliver your item' />
+            <SubWork img={shake} upText='We match you with a traveller' downText='Meet up with the traveller that will deliver your item' />
             <SubWork img={mark} upText='We deliver your item' downText='Recieve your item from the traveller' />
         </div>
     </section>
