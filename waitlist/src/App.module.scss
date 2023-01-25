@@ -26,12 +26,12 @@ body {
       z-index: 999;
       justify-content: space-between;
       margin-top: 20px;
-      padding-left: 60px;
-      padding-right: 60px;
+      padding-left: 80px;
+      padding-right: 80px;
       padding-top: 30px;
       .logo {
-        width: 178px;
-        height: 55px;
+        width: 82px;
+        height: 32.9px;
       }
       .link {
         display: flex;
@@ -47,12 +47,12 @@ body {
       }
       .waitBtn {
         background-color: $btnColor;
-        width: 152.25px;
-        height: 54.6px;
+        width: 124px;
+        height: 45px;
         border-radius: 57.8px;
         border: none;
         color: #FFFFFF;
-        font-size: 20px;
+        font-size: 16.8px;
         font-weight: 600;
         font-family: $textFont;
         }
@@ -68,8 +68,8 @@ body {
       max-width: 100%;
       justify-content: space-between;
       margin-top: 60px;
-      padding-left: 60px;
-      padding-right: 60px;
+      padding-left: 80px;
+      padding-right: 80px;
       }
       .subHead1 {
         display: flex;
@@ -79,10 +79,10 @@ body {
         padding-top: 40px;
         h2 {
           font-family: $textFont;
-          font-size: 7vw;
+          font-size: 5.5vw;
           font-weight: 700;
           color: $btnColor;
-          width: 60vw;
+          width: 45vw;
           margin-bottom: -7px;
           span {
             color: #000000;
