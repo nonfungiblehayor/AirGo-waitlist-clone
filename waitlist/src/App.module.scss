@@ -124,12 +124,22 @@ body {
         }      
       }
     }
+    .modal {
+      max-width: 100%;
+      background-color: red;
+      z-index: 1;
+      height: 100%;
+    }
     .formSection {
       display: flex;
       flex-direction: column;
       z-index: 1;
       max-width: 100%;
-      margin-top: -300px;
+      margin-top: -70vw;
+      height: 100vw;
+      padding-top: 50vw;
+      margin-bottom: -73vw;
+      background-color: #d7dde977;
       .ogaCancel {
         width: 50px;
         height: 50px;
@@ -141,12 +151,11 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        width: 1158px;
-        height: 349px;
+        width: 90vw;
+        height: 26vw;
         border-radius: 16px;
         border: none;
         align-self: center;
-        justify-content: space-around;
         background-color: #D7DDE9;
       }
       .formText {
@@ -161,27 +170,27 @@ body {
           }
           .logoImg {
             width: 178px;
-            height: 55pc;
+            height: 55px;
           }
         }
         .logoTxt {
           color: #0E0E0E;
-          font-size: 40px;
+          font-size: 3vw;
           font-weight: 700;
           font-family: $textFont;
         }
         .ptxt {
           color: $textColor;
-          font-size: 20px;
+          font-size: 1.5vw;
           font-weight: 400;
           font-family: $textFont;
         }
         .spanTxt {
           color: $textColor;
-          font-size: 15px;
-          font-weight: 700;
+          font-size: 1vw;
+          font-weight: 500;
           font-family: $textFont;
-          width: 464px;
+          width: 32vw;
           .exSpan {
             color: #05469E;
           }
@@ -216,7 +225,7 @@ body {
             padding: 7px;
           }
           .inputBtn {
-            width: 529px;
+            width: 545px;
             border: none;
             border-radius: 60px;
             height: 61px;
@@ -235,11 +244,11 @@ body {
       flex-direction: row;
       max-width: 0;
       margin-top: 83px;
-      justify-content: space-between;
+      // justify-content: space-between;
       // padding-right: 25px;
       gap: 4vw;
       .div1 {
-        max-width: 0;
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -287,6 +296,7 @@ body {
       background-color: #D7DDE9;
       margin-top: 133px;
       padding-bottom: 60px;
+      max-width: 100%;
       .work1 {
         display: flex;
         flex-direction: column;
@@ -1724,6 +1734,7 @@ body {
       flex-direction: column;
       z-index: 1;
       max-width: 100%;
+      background-color: transparent;
       .ogaCancel {
         width: 50px;
         height: 50px;
@@ -1741,7 +1752,7 @@ body {
         align-self: center;
         padding: 20px;
         background-color: #D7DDE9;
-        margin-top: -230px;
+        margin-top: -460px;
       }
       .formText {
         display: flex;
@@ -1848,7 +1859,8 @@ body {
       flex-direction: column;
       max-width: 100%;
       margin-top: 25px;
-      align-items: center;      
+      align-items: center;   
+      justify-content: center;   
       // padding: 0;
       .div1 {
         max-width: 100%;
@@ -1888,11 +1900,11 @@ body {
           }
       }
       .div2 {
-        max-width: 100%;
         order: 2;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 20px;
         gap: 30px;
         .waitBtn2 {
           background-color: $btnColor;
@@ -1909,9 +1921,11 @@ body {
           justify-content: center;
           }
         img {
-          width: 328px;
+          // width: 350px;
+          max-width: 100%;
           height: 279px;
           border-radius: 16px;
+          align-self: center;
         }
       }
     }
