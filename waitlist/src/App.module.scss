@@ -485,7 +485,7 @@ body {
       flex-direction: row;
       max-width: 100%;
       justify-content: space-between;
-      margin-top: 60px;
+      margin-top: 30px;
       padding-left: 20px;
       padding-right: 30px;
       }
@@ -547,7 +547,8 @@ body {
       flex-direction: column;
       z-index: 1;
       max-width: 100%;
-      margin-top: -300px;
+      margin-top: -750px;
+      background-color: transparent;
       .ogaCancel {
         width: 50px;
         height: 50px;
@@ -592,7 +593,7 @@ body {
         .spanTxt {
           color: $textColor;
           font-size: 15px;
-          font-weight: 700;
+          font-weight: 400;
           font-family: $textFont;
           width: 464px;
           .exSpan {
@@ -646,45 +647,49 @@ body {
     .section1 {
       display: flex;
       flex-direction: row;
-      max-width: 100%;
+      max-width: 0;
       margin-top: 83px;
-      align-items: center;      
-      // padding: 0;
+      // justify-content: space-between;
+      // padding-right: 25px;
+      gap: 3vw;
       .div1 {
         max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         h3 {
-          font-size: 30px;
+          font-size: 3vw;
           font-weight: 600;
           color: $textColor;
           font-family: $textFont;
           margin-bottom: 5px;
+          width: 40vw;
         }
         p {
-          font-size: 24px;
+          font-size: 1.7vw;
           font-weight: 400;
           color: $textColor;
           font-family: $textFont;
+          width: 37vw;
         }
         .waitBtn {
           background-color: $btnColor;
-          width: 152.25px;
-          height: 54.6px;
-          border-radius: 57.8px;
+          width: 150px;
+          height: 45px;
+          border-radius: 37.8px;
           border: none;
           color: #FFFFFF;
-          font-size: 20px;
+          font-size: 16.8px;
           font-weight: 600;
           font-family: $textFont;
           }
       }
       .div2 {
-        max-width: 100%;
+        // max-width: 120vw;
+        padding-left: 35px;
         img {
-          width: 459px;
-          height: 320px;
+          max-width: 50vw;
+          height: 35vw;
           border-radius: 16px;
         }
         .waitBtn2 {
@@ -868,7 +873,7 @@ body {
       flex-direction: row;
       max-width: 100%;
       justify-content: space-between;
-      margin-top: 60px;
+      margin-top: 30px;
       padding-left: 20px;
       padding-right: 20px;
       }
@@ -930,7 +935,8 @@ body {
       flex-direction: column;
       z-index: 1;
       max-width: 100%;
-      margin-top: -300px;
+      margin-top: -800px;
+      background-color: transparent;
       .ogaCancel {
         width: 50px;
         height: 50px;
@@ -975,7 +981,7 @@ body {
         .spanTxt {
           color: $textColor;
           font-size: 15px;
-          font-weight: 700;
+          font-weight: 400;
           font-family: $textFont;
           width: 350px;
           .exSpan {
@@ -1253,7 +1259,7 @@ body {
       flex-direction: row;
       max-width: 100%;
       justify-content: space-between;
-      margin-top: 60px;
+      margin-top: 30px;
       padding-left: 20px;
       padding-right: 20px;
       }
@@ -1262,7 +1268,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
         gap: 5px;
-        padding-top: 70px;
+        padding-top: 30px;
         h2 {
           font-family: $textFont;
           font-size: 25px;
@@ -1315,7 +1321,8 @@ body {
       flex-direction: column;
       z-index: 1;
       max-width: 100%;
-      margin-top: -300px;
+      margin-top: -600px;
+      background-color: transparent;
       .ogaCancel {
         width: 50px;
         height: 50px;
@@ -1359,8 +1366,8 @@ body {
         }
         .spanTxt {
           color: $textColor;
-          font-size: 15px;
-          font-weight: 700;
+          font-size: 13px;
+          font-weight: 400;
           font-family: $textFont;
           width: 250px;
           .exSpan {
@@ -1426,11 +1433,12 @@ body {
         align-items: center;
         order: 1;
         h3 {
-          font-size: 30px;
+          font-size: 24px;
           font-weight: 600;
           color: $textColor;
           font-family: $textFont;
           margin-bottom: 5px;
+          text-align: center;
         }
         p {
           font-size: 19px;
