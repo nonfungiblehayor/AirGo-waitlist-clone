@@ -97,8 +97,8 @@ body {
         }
         .waitBtn {
         background-color: $btnColor;
-        width: 152.25px;
-        height: 54.6px;
+        width: 124px;
+        height: 45px;
         border-radius: 37.8px;
         border: none;
         color: #FFFFFF;
@@ -112,23 +112,17 @@ body {
         flex-direction: column;
         p {
           color: #4C4C4C;
-          font-size: 24px;
-          font-weight: 500;
+          font-size: 20px;
+          font-weight: 400;
           font-family: $textFont;
           text-align: center;
           margin-bottom: -5px;
         }
         img {
-          width: 30vw;
-          height: 40vw;
+          width: 40vw;
+          height: 50vw;
         }      
       }
-    }
-    .modal {
-      max-width: 100%;
-      background-color: red;
-      z-index: 1;
-      height: 100%;
     }
     .formSection {
       display: flex;
@@ -246,31 +240,31 @@ body {
       margin-top: 83px;
       // justify-content: space-between;
       // padding-right: 25px;
-      gap: 4vw;
+      gap: 3vw;
       .div1 {
         max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         h3 {
-          font-size: 5vw;
+          font-size: 3vw;
           font-weight: 600;
           color: $textColor;
           font-family: $textFont;
           margin-bottom: 5px;
-          width: 50vw;
+          width: 40vw;
         }
         p {
-          font-size: 1.8vw;
+          font-size: 1.7vw;
           font-weight: 400;
           color: $textColor;
           font-family: $textFont;
-          width: 45vw;
+          width: 37vw;
         }
         .waitBtn {
           background-color: $btnColor;
-          width: 152.25px;
-          height: 54.6px;
+          width: 150px;
+          height: 45px;
           border-radius: 37.8px;
           border: none;
           color: #FFFFFF;
@@ -329,16 +323,16 @@ body {
           align-items: center;
           .divImg {
             background-color: #4470ae1c;
-            width: 76.55px;
-            height: 74.56px;
+            width: 75.2px;
+            height: 75.2px;
             display: flex;
             align-items: center;
             justify-content: center;
             border-radius: 9.34px;
           }
           .img {
-            width: 64.88px;
-            height: 62.89px;
+            width: 63.53px;
+            height: 63.53px;
           }
           h5 {
             color: $textColor;
@@ -346,14 +340,14 @@ body {
             font-family: $textFont;
             font-size: 24px;
             text-align: center;
-            width: 220px;
+            width: 350px;
           }
           .pText {
           color: $textColor;
           font-weight: 400;
           font-family: $textFont;
           font-size: 20px;
-          width: 275px;
+          width: 330px;
           text-align: center;
           margin-top: -10px;
           }
@@ -366,8 +360,8 @@ body {
       justify-content: center;
       align-items: center;
       gap: 50px;
-      padding-bottom: 50px;
-      margin-top: 30px;
+      padding-bottom: 70px;
+      margin-top: 50px;
         p {
           color: $textColor;
           font-size: 24px;
