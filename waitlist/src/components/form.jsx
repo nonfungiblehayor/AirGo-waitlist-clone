@@ -4,7 +4,7 @@ import logo from '../images/logo.svg'
 import cancel from '../images/cancel.svg'
 
 function Form(props) {
-    return <section className={styles.formSection} onClick={props.formHiding}>
+    return <section className={styles.formSection}>
         <img src={cancel} className={styles.ogaCancel} alt='cancel' onClick={props.formHiding}></img>
         <div className={styles.formSections}>
        <div className={styles.formText}>
