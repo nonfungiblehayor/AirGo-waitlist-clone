@@ -230,6 +230,12 @@ body {
             font-weight: 700;
             text-align: center;
           }
+          .inputBtn:focus {
+            outline: none;
+          }
+          .inputName:focus {
+            outline: none;
+          }
         }
       }
     }
@@ -640,6 +646,12 @@ body {
             font-size: 16px;
             font-weight: 700;
             text-align: center;
+          }
+          .inputBtn:focus {
+            outline: none;
+          }
+          .inputName:focus {
+            outline: none;
           }
         }
       }
@@ -1852,6 +1864,9 @@ body {
             font-weight: 700;
             text-align: center;
             // padding: 25px;
+          }
+          .inputBtn:focus {
+            outline: none;
           }
         }
       }
