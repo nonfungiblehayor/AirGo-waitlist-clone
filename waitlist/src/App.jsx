@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import Section1 from './components/section1';
 import { useState } from "react";
 import Menu from './components/menu';
+import Form from './components/form';
 
 function App() {
   const [menu, showMenu] = useState(false)
@@ -15,17 +16,27 @@ function App() {
     console.log(20)
 }
 
+const [formState, formControl] = useState(false)
+
+const displayForm = () => {
+    formControl(!formState)
+}
+
+const hideForm = () => {
+    formControl(!formState)
+}
+
   return (
     <div className={styles.App}>
       {menu ? 
-       <Menu fnc2={displayMenu}/>  
+       <Menu fnc2={displayMenu} menuFnc={displayForm}/>  
       :
        <>      
-       <Header fnc={displayMenu}/> 
-       <SubHeader />  </>           
+       <Header fnc={displayMenu} headFnc={displayForm}/> 
+       <SubHeader subHeadFnc={displayForm}/>   {formState ? <Form formHiding={hideForm}/> : ''}</>           
     }
      
-      <Section1 /> 
+      <Section1 sectionFnc={displayForm}/> 
       <Work />
       <Footer />
     </div>
