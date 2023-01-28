@@ -1,19 +1,8 @@
 import React from "react";
-import { useState } from "react";
 import styles from '../App.module.scss'
 import rosebox from '../images/rosebox.svg'
-import Form from "./form";
 
 function SubHeader(props) {
-    // const [formState, formControl] = useState(false)
-
-    // const displayForm = () => {
-    //     formControl(!formState)
-    // }
-
-    // const hideForm = () => {
-    //     formControl(!formState)
-    // }
     return <section className={styles.subHeader}>
         <div className={styles.subHeads}>
         <div className={styles.subHead1}>
@@ -30,7 +19,6 @@ function SubHeader(props) {
             <img src={rosebox} alt='delivery'></img>
         </div> 
         </div>
-        {/* {formState ? <Form formHiding={hideForm}/> : ''} */}
     </section>
     
 }

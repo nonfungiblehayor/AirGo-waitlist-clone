@@ -56,6 +56,9 @@ body {
         font-weight: 600;
         font-family: $textFont;
         }
+        .waitBtn:focus {
+          outline: none;
+        }
     }  
     .subHeader {
       display: flex;
@@ -106,6 +109,9 @@ body {
         font-size: 16.8px;
         font-weight: 600;
         font-family: $textFont;
+        }
+        .waitBtn:focus {
+          outline: none;
         }
       }
       .subHead2 {
@@ -237,6 +243,7 @@ body {
           }
           .inputName:focus {
             outline: none;
+            color: black;
           }
         }
       }
@@ -279,6 +286,9 @@ body {
           font-size: 16.8px;
           font-weight: 600;
           font-family: $textFont;
+          }
+          .waitBtn:focus {
+            outline: none;
           }
       }
       .div2 {
@@ -440,6 +450,9 @@ body {
       font-weight: 600;
       font-family: $textFont;
       }
+      .waitBtn:focus {
+        outline: none;
+      }
     .header {
       display: flex;
       flex-direction: row;
@@ -484,6 +497,9 @@ body {
         font-size: 20px;
         font-weight: 600;
         font-family: $textFont;
+      }
+      .waitBtn:focus {
+        outline: none;
       }
     }
     .subHeader {
@@ -533,6 +549,9 @@ body {
         font-size: 20px;
         font-weight: 600;
         font-family: $textFont;
+        }
+        .waitBtn:focus {
+          outline: none;
         }
       }
       .subHead2 {
@@ -698,6 +717,9 @@ body {
           font-size: 16.8px;
           font-weight: 600;
           font-family: $textFont;
+          }
+          .waitBtn:focus {
+            outline: none;
           }
       }
       .div2 {
@@ -879,6 +901,9 @@ body {
         font-weight: 600;
         font-family: $textFont;
       }
+      .waitBtn:focus {
+        outline: none;
+      }
     }
     .subHeader {
       display: flex;
@@ -927,6 +952,9 @@ body {
         font-size: 20px;
         font-weight: 600;
         font-family: $textFont;
+        }
+        .waitBtn:focus {
+          outline: none;
         }
       }
       .subHead2 {
@@ -1045,6 +1073,13 @@ body {
             font-weight: 700;
             text-align: center;
           }
+          .inputName:focus {
+            outline: none;
+            color: black;
+          }
+          .inputBtn:focus {
+            outline: none;
+          }
         }
       }
     }
@@ -1083,6 +1118,9 @@ body {
           font-size: 20px;
           font-weight: 600;
           font-family: $textFont;
+          }
+          .waitBtn:focus {
+            display: none;
           }
       }
       .div2 {
@@ -1219,6 +1257,9 @@ body {
     font-weight: 600;
     font-family: $textFont;
     }
+    .waitBtn:focus {
+      outline: none;
+    }
     .header {
       display: flex;
       flex-direction: row;
@@ -1264,6 +1305,9 @@ body {
         font-weight: 600;
         font-family: $textFont;
         margin-left: 20px;
+      }
+      .waitBtn:focus {
+        outline: none;
       }
     }
     .subHeader {
@@ -1313,6 +1357,9 @@ body {
         font-size: 20px;
         font-weight: 600;
         font-family: $textFont;
+        }
+        .waitBtn:focus {
+          outline: none;
         }
       }
       .subHead2 {
@@ -1431,6 +1478,13 @@ body {
             font-weight: 700;
             text-align: center;
           }
+          .inputName:focus {
+            outline: none;
+            color: black;
+          }
+          .inputBtn:focus {
+            outline: none;
+          }
         }
       }
     }    
@@ -1475,6 +1529,9 @@ body {
           font-weight: 600;
           font-family: $textFont;
           display: none;
+          }
+          .waitBtn:focus {
+            outline: none;
           }
       }
       .div2 {
@@ -1619,6 +1676,9 @@ body {
         padding: 15px;
         border-radius: 30px;
       }
+      .waitBtn:focus {
+        outline: none;
+      }
       .subHead2 {
         display: flex;
         flex-direction: column;
@@ -1676,6 +1736,9 @@ body {
     .waitBtn {
       display: none;
     }
+    .waitBtn:focus {
+      outline: none;
+    }
     .subHeader {
       display: flex;
       flex-direction: column;
@@ -1728,6 +1791,9 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        }
+        .waitBtn:focus {
+          outline: none;
         }
       }
       .subHead2 {
@@ -1854,7 +1920,7 @@ body {
           }
           .inputName:focus {
             outline: none;
-            color: #000000;
+            color: black;
           }
           .inputBtn {
             width: 300px;
@@ -1918,6 +1984,9 @@ body {
           font-weight: 600;
           font-family: $textFont;
           display: none;
+          }
+          .waitBtn:focus {
+            outline: none;
           }
       }
       .div2 {
