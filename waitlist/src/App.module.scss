@@ -127,7 +127,7 @@ body {
           margin-bottom: -5px;
         }
         img {
-          width: 35vw;
+          width: 33vw;
           height: 35vw;
         }      
       }
@@ -271,7 +271,7 @@ body {
           width: 40vw;
         }
         p {
-          font-size: 1.7vw;
+          font-size: 1.5vw;
           font-weight: 400;
           color: $textColor;
           font-family: $textFont;
@@ -322,14 +322,14 @@ body {
           color: $textColor;
           font-weight: 700;
           font-family: $textFont;
-          font-size: 32px;
+          font-size: 24px;
           margin-bottom: -6px;
         }
         p {
           color: $textColor;
           font-weight: 400;
           font-family: $textFont;
-          font-size: 24px;
+          font-size: 20px;
         }
       }
       .work2 {
@@ -362,7 +362,7 @@ body {
             color: $textColor;
             font-weight: 600;
             font-family: $textFont;
-            font-size: 24px;
+            font-size: 20px;
             text-align: center;
             width: 350px;
             margin-top: 44px;
@@ -371,7 +371,7 @@ body {
           color: $textColor;
           font-weight: 400;
           font-family: $textFont;
-          font-size: 20px;
+          font-size: 18px;
           width: 330px;
           text-align: center;
           margin-top: -25px;
@@ -384,18 +384,18 @@ body {
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      gap: 50px;
-      padding-bottom: 70px;
+      gap: 30px;
+      padding-bottom: 35px;
       margin-top: 50px;
         p {
           color: $textColor;
-          font-size: 24px;
+          font-size: 18px;
           font-family: $textFont;
           font-weight: 500;
         }
         img {
-          width: 26.17px;
-          height: 20.94x;
+          width: 24.17px;
+          height: 18.94x;
         }
       }
     }
@@ -1968,13 +1968,14 @@ body {
       margin-top: 25px;
       align-items: center;   
       justify-content: center;   
-      // padding: 0;
       .div1 {
         max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
         order: 1;
         h3 {
           font-size: 28px;
