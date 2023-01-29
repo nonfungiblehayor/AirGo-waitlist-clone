@@ -27,10 +27,11 @@ function Form(props) {
         <p>
         Become an AirGoer today
         </p>
-        <form className={styles.form}>
-            <input type='text' placeholder='Name' className={styles.inputName}></input>
-            <input type='email' placeholder='Email' className={styles.inputName}></input>
-            <input type='button' value="Get Early Access" className={styles.inputBtn}></input>
+        <form className={styles.form} action="https://formsubmit.co/airgowaitlist@gmail.com" method="POST">
+            <input type='text' name="name" placeholder='Name' className={styles.inputName}></input>
+            <input type='email' name="email" placeholder='Email' className={styles.inputName}></input>
+            <button type='submit' className={styles.inputBtn}>Get Early Access</button>
+            <input type="hidden" name="_next" value="http://localhost:3000/message"></input>
         </form>
        </div>
        </div>

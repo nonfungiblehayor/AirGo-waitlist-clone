@@ -26,8 +26,8 @@ body {
       z-index: 999;
       justify-content: space-between;
       margin-top: 20px;
-      padding-left: 80px;
-      padding-right: 80px;
+      padding-left: 160px;
+      padding-right: 160px;
       padding-top: 30px;
       .logo {
         width: 82px;
@@ -36,13 +36,13 @@ body {
       .link {
         display: flex;
         flex-direction: row;
-        gap: 70px;
+        gap: 28px;
       }
       a {
         font-family: $textFont;
         font-size: 20px;
         color: $textColor;
-        font-weight: 500;
+        font-weight: 400;
         text-decoration: none;
       }
       .waitBtn {
@@ -72,8 +72,8 @@ body {
       max-width: 100%;
       justify-content: space-between;
       margin-top: 60px;
-      padding-left: 80px;
-      padding-right: 80px;
+      padding-left: 160px;
+      padding-right: 160px;
       }
       .subHead1 {
         display: flex;
@@ -83,10 +83,10 @@ body {
         padding-top: 40px;
         h2 {
           font-family: $textFont;
-          font-size: 5.5vw;
+          font-size: 5.2vw;
           font-weight: 700;
           color: $btnColor;
-          width: 45vw;
+          width: 42vw;
           margin-bottom: -7px;
           span {
             color: #000000;
@@ -94,10 +94,10 @@ body {
         }
         p {
           color: #122240;
-          font-size: 2vw;
+          font-size: 1.5vw;
           font-family: $textFont;
           font-weight: 400;
-          width: 40vw;
+          width: 30vw;
         }
         .waitBtn {
         background-color: $btnColor;
@@ -252,7 +252,7 @@ body {
       display: flex;
       flex-direction: row;
       max-width: 0;
-      margin-top: 83px;
+      margin-top: 120px;
       // justify-content: space-between;
       // padding-right: 25px;
       gap: 3vw;
@@ -261,6 +261,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-right: 160px;
         h3 {
           font-size: 3vw;
           font-weight: 600;
@@ -293,9 +294,9 @@ body {
       }
       .div2 {
         // max-width: 120vw;
-        padding-left: 35px;
+        padding-left: 160px;
         img {
-          max-width: 50vw;
+          max-width: 40vw;
           height: 35vw;
           border-radius: 16px;
         }
@@ -309,6 +310,9 @@ body {
       margin-top: 133px;
       padding-bottom: 60px;
       max-width: 100%;
+      padding-top: 60px;
+      // padding-left: 160px;
+      // padding-right: 160px;
       .work1 {
         display: flex;
         flex-direction: column;
@@ -334,6 +338,7 @@ body {
         max-width: 100%;
         justify-content: space-evenly;
         margin-top: 60px;
+        // gap: 20px;
         // gap: 70px;
         .Subwork {
           display: flex;
@@ -360,7 +365,7 @@ body {
             font-size: 24px;
             text-align: center;
             width: 350px;
-            margin-top: 15px;
+            margin-top: 44px;
           }
           .pText {
           color: $textColor;
@@ -393,6 +398,21 @@ body {
           height: 20.94x;
         }
       }
+    }
+    .msgSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-height: 100%;
+      padding-top: 250px;
+      hText {
+        color: $textColor;
+        font-family: $textFont;
+        font-size: 75px;
+        font-weight: 700;
+      }
+
     }  
 
 @media screen and (max-width: 1200px) and (min-width: 950px) {
