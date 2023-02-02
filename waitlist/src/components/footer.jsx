@@ -8,8 +8,8 @@ function Footer() {
     return <footer className={styles.footer} id='footer'>
             <p>Contact us</p>
             <a href='/app'><img src={mail} alt='mail logo'></img></a>
-            <a href='/app'><img src={insta} alt='instagram logo'></img></a>
-            <a href='/app'><img src={twitter} alt='twitter logo'></img></a>
+            <a href='https://instagram.com/myairgo?igshid=YmMyMTA2M2y'><img src={insta} alt='instagram logo'></img></a>
+            <a href='https://twitter.com/MyAirGo?s=20&t=MQIvZuLJHdwXEoL_t6XiLA'><img src={twitter} alt='twitter logo'></img></a>
     </footer>
 }
 

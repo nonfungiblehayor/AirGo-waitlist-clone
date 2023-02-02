@@ -17,9 +17,14 @@ function App() {
 }
 
 const [formState, formControl] = useState(false)
+const [formState2, formControl2] = useState(false)
 
 const displayForm = () => {
     formControl(!formState)
+}
+
+const displayForm2 = () => {
+  formControl2(!formState2)
 }
 
 const hideForm = () => {
@@ -36,7 +41,8 @@ const hideForm = () => {
        <SubHeader subHeadFnc={displayForm}/>   {formState ? <Form formHiding={hideForm}/> : ''}</>           
     }
      
-      <Section1 sectionFnc={displayForm}/> 
+      <Section1 sectionFnc={displayForm2}/> 
+      {formState2 ? <Form formHiding={displayForm2}/> : ''}
       <Work />
       <Footer />
     </div>
