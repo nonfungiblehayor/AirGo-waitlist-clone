@@ -6,7 +6,7 @@ function Section1(props) {
     return <section className={styles.section1}>
         <div className={styles.div2}>
             <img src={frame} alt='frame img'></img>
-            <button className={styles.waitBtn2}>Deliver for us</button>
+            <button className={styles.waitBtn2} onClick={props.sectionFnc}>Deliver for us</button>
         </div>
         <div className={styles.div1}>
             <h3>Join us in providing easy delivery</h3>
