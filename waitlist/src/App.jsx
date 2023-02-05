@@ -21,6 +21,7 @@ const [formState2, formControl2] = useState(false)
 
 const displayForm = () => {
     formControl(!formState)
+    showMenu(!menu)
 }
 
 const displayForm2 = () => {
