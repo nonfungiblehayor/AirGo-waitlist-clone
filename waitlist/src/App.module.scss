@@ -1673,8 +1673,10 @@ body {
       height: 303px;
       z-index: 1;
       gap: 40px;
-      margin-top: 250px;
+      padding-top: 250px;
+      // margin-top: 250px;
       margin-bottom: 260px;
+      background-color: #D7DDE9;
       .cancel {
         width: 25px;
         height: 25px;
@@ -1696,7 +1698,7 @@ body {
         font-family: $textFont;
         background-color:  $btnColor;
         font-weight: 600;
-        font-size: 16px;
+        font-size: 12px;
         padding: 15px;
         border-radius: 30px;
       }
