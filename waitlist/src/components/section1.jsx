@@ -1,6 +1,6 @@
 import React from "react";
 import styles from '../App.module.scss'
-import frame from '../images/Frame.svg'
+import frame from '../images/Frame.jpeg'
 
 function Section1(props) {
     return <section className={styles.section1}>

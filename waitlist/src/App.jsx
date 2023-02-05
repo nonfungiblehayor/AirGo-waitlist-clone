@@ -13,7 +13,6 @@ function App() {
 
   const displayMenu = () => {
     showMenu(!menu)
-    console.log(20)
 }
 
 const [formState, formControl] = useState(false)
@@ -21,7 +20,11 @@ const [formState2, formControl2] = useState(false)
 
 const displayForm = () => {
     formControl(!formState)
-    showMenu(!menu)
+}
+
+const displayForm3 = () => {
+  formControl(!formState)
+  displayMenu()
 }
 
 const displayForm2 = () => {
@@ -35,7 +38,7 @@ const hideForm = () => {
   return (
     <div className={styles.App}>
       {menu ? 
-       <Menu fnc2={displayMenu} menuFnc={displayForm}/>  
+       <Menu fnc2={displayMenu} menuFnc={displayForm3}/>  
       :
        <>      
        <Header fnc={displayMenu} headFnc={displayForm}/> 
