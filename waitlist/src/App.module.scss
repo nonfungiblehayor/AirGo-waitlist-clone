@@ -1693,10 +1693,11 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 300px;
+      height: 320px;
       z-index: 1;
       gap: 30px;
       padding-top: 15px;
+      padding-bottom: 35px;
       margin-bottom: 15px;
       background-color: #D7DDE9;
       .divNav {
@@ -2055,7 +2056,8 @@ body {
         align-items: center;
         padding: 20px;
         gap: 30px;
-        z-index: -1;
+        margin-top: -20px;
+        z-index: 0;
         .waitBtn2 {
           background-color: $btnColor;
           width: 117.63px;
