@@ -1692,10 +1692,10 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 303px;
+      height: 40px;
       z-index: 1;
       gap: 40px;
-      padding-top: 250px;
+      padding-top: 370px;
       margin-bottom: 260px;
       background-color: #D7DDE9;
       .cancel {
@@ -1737,6 +1737,7 @@ body {
           font-family: $textFont;
           color: $textColor;
           text-align: center;
+          margin-bottom: 5px;
         }
         img {
           width: 300px;
@@ -1852,7 +1853,7 @@ body {
           font-weight: 500;
           font-family: $textFont;
           text-align: center;
-          margin-bottom: 25px;
+          margin-bottom: -5px;
         }
         img {
           width: 327px;
@@ -2082,7 +2083,7 @@ body {
               font-weight: 700;
               font-size: 16px;
               color: #4471AE;
-              width: 94.5px;
+              width: 94.5        px;
               text-align: center;
             }
           }        
@@ -2196,4 +2197,4 @@ body {
     }
 
   }   
-}
+} 
