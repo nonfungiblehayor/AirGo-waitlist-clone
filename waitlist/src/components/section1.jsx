@@ -1,11 +1,14 @@
 import React from "react";
 import styles from '../App.module.scss'
-import frame from '../images/Frame.jpeg'
 
 function Section1(props) {
     return <section className={styles.section1}>
         <div className={styles.div2}>
-            <img src={frame} alt='frame img'></img>
+            <div className={styles.txtDiv}>
+            <div className={styles.divTxt}>
+            <p>Get paid while flying </p>
+            </div>
+            </div>
             <button className={styles.waitBtn2} onClick={props.sectionFnc}>Deliver for us</button>
         </div>
         <div className={styles.div1}>

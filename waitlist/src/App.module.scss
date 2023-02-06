@@ -257,8 +257,6 @@ body {
       flex-direction: row;
       max-width: 0;
       margin-top: 120px;
-      // justify-content: space-between;
-      // padding-right: 25px;
       gap: 3vw;
       .div1 {
         max-width: 100%;
@@ -297,12 +295,36 @@ body {
           }
       }
       .div2 {
-        // max-width: 120vw;
         padding-left: 160px;
-        img {
-          max-width: 40vw;
-          height: 35vw;
-          border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        .txtDiv {
+          width: 550px;
+          height: 475px;
+          background-image: url(./images/Frame.jpeg);
+          background-size: cover;
+          background-repeat: no-repeat; 
+          border-radius: 14.64px;
+          .divTxt {
+            width: 218px;
+            background-color: #d7dde9b6;
+            border-radius: 14.64px;
+            height: 82px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 379px;
+            left: 10px;
+          }      
+          p {
+            font-family: $textFont;
+            font-weight: 700;
+            font-size: 24px;
+            color: #4471AE;
+            width: 161px;
+            text-align: center;
+          }
         }
         .waitBtn2 {
           display: none;
@@ -1674,7 +1696,6 @@ body {
       z-index: 1;
       gap: 40px;
       padding-top: 250px;
-      // margin-top: 250px;
       margin-bottom: 260px;
       background-color: #D7DDE9;
       .cancel {
@@ -2037,13 +2058,34 @@ body {
           align-items: center;
           justify-content: center;
           }
-        img {
-          // width: 350px;
-          max-width: 100%;
-          height: 279px;
-          border-radius: 16px;
-          align-self: center;
-        }
+          .txtDiv {
+            width: 328.62px;
+            height: 279.86px;
+            background-image: url(./images/Frame.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat; 
+            border-radius: 11.7px;
+            .divTxt {
+              width: 114px;
+              background-color: #d7dde9b6;
+              border-radius: 15.6px;
+              height: 57.5px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: relative;
+              top: 215.14px;
+              left: 4.81px;
+            }      
+            p {
+              font-family: $textFont;
+              font-weight: 700;
+              font-size: 16px;
+              color: #4471AE;
+              width: 94.5px;
+              text-align: center;
+            }
+          }        
       }
     }
     .workSection {
