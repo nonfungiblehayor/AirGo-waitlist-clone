@@ -331,6 +331,20 @@ body {
           display: none;
         }
       }
+      .waitBtn2 {
+        background-color: $btnColor;
+        width: 117.63px;
+        height: 42.18px;
+        border-radius: 29.2px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 12.98px;
+        font-weight: 600;
+        font-family: $textFont;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        }
     }
     .workSection {
       background-color: #D7DDE9;
@@ -2057,21 +2071,8 @@ body {
         padding: 20px;
         gap: 30px;
         margin-top: -20px;
-        z-index: 0;
-        .waitBtn2 {
-          background-color: $btnColor;
-          width: 117.63px;
-          height: 42.18px;
-          border-radius: 29.2px;
-          border: none;
-          color: #FFFFFF;
-          font-size: 12.98px;
-          font-weight: 600;
-          font-family: $textFont;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          }
+        z-index: -1;
+        
           .txtDiv {
             width: 328.62px;
             height: 279.86px;
@@ -2101,6 +2102,21 @@ body {
             }
           }        
       }
+      .waitBtn2 {
+        background-color: $btnColor;
+        width: 117.63px;
+        height: 42.18px;
+        border-radius: 29.2px;
+        border: none;
+        color: #FFFFFF;
+        font-size: 12.98px;
+        font-weight: 600;
+        font-family: $textFont;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 3;
+        }
     }
     .workSection {
       margin-top: 60px;

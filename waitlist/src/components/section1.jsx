@@ -9,8 +9,9 @@ function Section1(props) {
             <p>Get paid while flying </p>
             </div>
             </div>
-            <button className={styles.waitBtn2} onClick={props.sectionFnc}>Deliver for us</button>
+            {/* <button className={styles.waitBtn2} onClick={props.sectionFnc}>Deliver for us</button> */}
         </div>
+        <button className={styles.waitBtn2} onClick={props.sectionFnc}>Deliver for us</button>
         <div className={styles.div1}>
             <h3>Join us in providing easy delivery</h3>
             <p>
