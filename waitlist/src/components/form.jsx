@@ -25,13 +25,14 @@ function Form(props) {
        </div>
        <div className={styles.formInput}>
         <p>
-        Become an AirGoer today
+            Become an AirGoer today
         </p>
-        <form className={styles.form} action="https://formsubmit.co/4698a075f53b6d5697066f810a5c15e5" method="POST">
+        <form className={styles.form} action="https://formsubmit.co/buildairgo@gmail.com" method="POST">
             <input type='text' name="name" placeholder='Name' className={styles.inputName}></input>
             <input type='email' name="email" placeholder='Email' className={styles.inputName}></input>
             <button type='submit' className={styles.inputBtn}>Get Early Access</button>
-            <input type="hidden" name="_next" value="http://localhost:3000/message"></input>
+            <input type="hidden" name="_captcha" value="false"></input>
+            <input type="hidden" name="_next" value="http://myairgo.co"></input>
         </form>
        </div>
        </div>

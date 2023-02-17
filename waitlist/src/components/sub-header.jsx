@@ -1,6 +1,5 @@
 import React from "react";
 import styles from '../App.module.scss'
-import rosebox from '../images/rosebox.svg'
 
 function SubHeader(props) {
     return <section className={styles.subHeader}>
@@ -16,7 +15,9 @@ function SubHeader(props) {
         </div>
         <div className={styles.subHead2}>
             <p>Simple, easy deliveries</p>
-            <img src={rosebox} alt='delivery'></img>
+            <div className={styles.div4}>
+                
+            </div>
         </div> 
         </div>
     </section>

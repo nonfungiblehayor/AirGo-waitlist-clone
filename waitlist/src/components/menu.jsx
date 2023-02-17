@@ -1,7 +1,7 @@
 import React from "react";
 import styles from '../App.module.scss'
 import cancel from '../images/cancel.svg'
-import rosebox from '../images/rosebox.svg'
+import rosebox from '../images/rosebox.webp'
 
 function Menu(props) {
     return <>

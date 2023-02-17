@@ -126,10 +126,13 @@ body {
           text-align: center;
           margin-bottom: -5px;
         }
-        img {
+        .div4 {
           width: 33vw;
           height: 35vw;
-        }      
+          background-image: url(./images/rosebox.webp);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }  
       }
     }
     .formSection {
@@ -302,7 +305,7 @@ body {
         .txtDiv {
           width: 550px;
           height: 475px;
-          background-image: url(./images/Frame.jpeg);
+          background-image: url(./images/Frame.webp);
           background-size: cover;
           background-repeat: no-repeat; 
           border-radius: 14.64px;
@@ -626,9 +629,12 @@ body {
           text-align: center;
           margin-bottom: -5px;
         }
-        img {
+        .div4 {
           width: 350px;
           height: 463px;
+          background-image: url(./images/rosebox.webp);
+          background-repeat: no-repeat;
+          background-size: contain;
         }      
       }
     }
@@ -1029,10 +1035,13 @@ body {
           text-align: center;
           margin-bottom: -45px;
         }
-        img {
+        .div4 {
           width: 300px;
           height: 463px;
-        }      
+          background-image: url(./images/rosebox.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }              
       }
     }
     .formSection {
@@ -1434,10 +1443,13 @@ body {
           text-align: center;
           margin-bottom: -95px;
         }
-        img {
+        .div4 {
           width: 200px;
           height: 463px;
-        }      
+          background-image: url(./images/rosebox.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }       
       }
     }
     .formSection {
@@ -1880,10 +1892,13 @@ body {
           margin-bottom: -5px;
           width: 250px;
         }
-        img {
+        .div4 {
           width: 327px;
           height: 364px;
-        }      
+          background-image: url(./images/rosebox.webp);
+          background-repeat: no-repeat;
+          background-size: contain;
+        }       
       }
     }    
     .formSection {
@@ -2076,7 +2091,7 @@ body {
           .txtDiv {
             width: 328.62px;
             height: 279.86px;
-            background-image: url(./images/Frame.jpeg);
+            background-image: url(./images/Frame.webp);
             background-size: cover;
             background-repeat: no-repeat; 
             border-radius: 11.7px;
