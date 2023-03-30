@@ -58,6 +58,11 @@ body {
         }
         .waitBtn:focus {
           outline: none;
+          background-color: #06326D;
+        }
+        .waitBtn:hover {
+          outline: none;
+          background-color: #2965B6;
         }
     }  
     .subHeader {
@@ -112,6 +117,11 @@ body {
         }
         .waitBtn:focus {
           outline: none;
+          background-color: #06326D;
+        }
+        .waitBtn:hover {
+          outline: none;
+          background-color: #2965B6;
         }
       }
       .subHead2 {
@@ -140,11 +150,17 @@ body {
       flex-direction: column;
       z-index: 1;
       max-width: 100%;
-      margin-top: -70vw;
+      margin-top: -40vw;
       height: 100vw;
       padding-top: 50vw;
       margin-bottom: -73vw;
-      background-color: #d7dde977;
+      background-color: #e7e9ef9d;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      // overflow-y: scroll;
       .ogaCancel {
         width: 50px;
         height: 50px;
@@ -247,6 +263,11 @@ body {
           }
           .inputBtn:focus {
             outline: none;
+            background-color: #06326D;
+          }
+          .inputBtn:hover {
+            outline: none;
+            background-color: #2965B6;
           }
           .inputName:focus {
             outline: none;
@@ -347,6 +368,14 @@ body {
         display: none;
         align-items: center;
         justify-content: center;
+        }
+        .waitBtn:focus {
+          outline: none;
+          background-color: #06326D;
+        }
+        .waitBtn:hover {
+          outline: none;
+          background-color: #2965B6;
         }
     }
     .workSection {
@@ -1761,6 +1790,11 @@ body {
       }
       .waitBtn:focus {
         outline: none;
+        background-color: #06326D;
+      }
+      .waitBtn:hover {
+        outline: none;
+        background-color: #2965B6;
       }
     }
     .subHead2 {
@@ -1906,7 +1940,15 @@ body {
       flex-direction: column;
       z-index: 1;
       max-width: 100%;
-      background-color: transparent;
+      background-color: #e7e9ef8a;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      padding-top: 40vh;
+      height: 100vh;
+      overflow-y: scroll;
       .ogaCancel {
         width: 50px;
         height: 50px;
@@ -1924,7 +1966,8 @@ body {
         align-self: center;
         padding: 20px;
         background-color: #D7DDE9;
-        margin-top: -460px;
+        // margin-top: -460px;
+        margin-bottom: 50vh;
       }
       .formText {
         display: flex;
