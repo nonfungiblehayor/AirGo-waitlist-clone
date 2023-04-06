@@ -20,6 +20,7 @@ const [formState2, formControl2] = useState(false)
 
 const displayForm = () => {
     formControl(!formState)
+    document.body.style.overflow = 'hidden';
 }
 
 const displayForm3 = () => {
@@ -29,10 +30,12 @@ const displayForm3 = () => {
 
 const displayForm2 = () => {
   formControl2(!formState2)
+  console.log(10)
 }
 
 const hideForm = () => {
     formControl(!formState)
+    document.body.style.overflowY = 'scroll';
 }
 
   return (
